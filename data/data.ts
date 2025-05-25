@@ -1,15 +1,15 @@
 const currentYear = new Date().getFullYear();
 const data = {
-    sitename: "Sandip Baikare Blog",
-    sitetagline: "Something great is on the way! ✨ 🔥",
-    siteurl: "https://github.com/baikaresandip",
+    sitename: "Ranked.hu",
+    sitetagline: "Valami nagyszerű van készülőben!",
+    siteurl: "https://ranked.hu",
     sitelogo: "",
-    title: "Coming Soon!",
-    description: "We&apos;re currently working 👨‍💻 hard to bring you something great, and we can&apos;t wait to share it with you 📅. Our team is putting the finishing touches on a new project 🚀 that we think you&apos;ll love 😍.",
-    newsletterheading: "Stay tuned for our live updates!",
-    copyrightText: `Copyright © ${currentYear} | Design and Developed By &nbsp;<a target="_blank" class="no-underline md:underline" href="https://github.com/baikaresandip">Baikare Sandip</a>`,
-    socialIconsHeading: "Follow Us 📣",
-    hideSubscribeForm: false, // make true to disable subscription form 
+    title: "Hamarosan!",
+    description: "Jelenleg keményen dolgozunk azon, hogy valami nagyszerűt hozzunk létre, és alig várjuk, hogy megoszthassuk veled. Csapatunk az utolsó simításokat végzi egy új projekten 🚀, amelyről úgy gondoljuk, hogy imádni fogod 😍.",
+    newsletterheading: "Maradj velünk élő frissítéseinkért!",
+    copyrightText: `Copyright © ${currentYear} Ranked.hu. Minden jog fenntartva.`,
+    socialIconsHeading: "Kövess minket 📣",
+    hideSubscribeForm: false, // állítsd 'true'-ra a feliratkozási űrlap letiltásához
     socialIcons: [
         {
             icon: "facebook",
@@ -25,8 +25,8 @@ const data = {
         },
     ],
     hide :{
-        subscribeForm: false, // make true to disable subscription form         
-        header: false,
+        subscribeForm: true, // állítsd 'true'-ra a feliratkozási űrlap letiltásához
+        header: true,
         content: false,
         footer: false,
     }

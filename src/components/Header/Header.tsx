@@ -7,7 +7,6 @@ function Header() {
   return (
     <>
     <section className="container mx-auto p-4 text-center">
-      <Navigation />      
     </section>
       <header className="z-10 w-full max-w-5xl items-center justify-between text-sm ">
         <div className=" bottom-0 left-0 flex h-30 md:h-48 w-full items-end justify-center  lg:static lg:h-auto lg:w-auto lg:bg-none">
